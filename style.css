@@ -195,7 +195,7 @@ html ,body{
 #midleft img{
     height: 70vh;
     width: 80vh;
-   background-image: url("image/bg.jpg");
+   background-image: url("bg.jpg");
    padding-bottom: 4vh;
 }
 #midleft{
