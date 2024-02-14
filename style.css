@@ -1,0 +1,360 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(221, 226, 232);
+    
+    
+
+}
+ #main{
+    width: 100%;
+}
+#home{
+    width: 100%;
+    /* min-height:80vh ; */
+    background-color:#ffff;
+} 
+#nav{
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:rgb(221, 226, 232);
+    height: 7vh;
+    position: fixed;
+    top:0px;
+}
+#nav img{
+    height: 10vh;
+    width: 25vh;
+    margin-top: 0px;
+    
+
+}
+#right{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#right1{
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.829);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width:auto;
+    margin-top: 8vh;
+    margin-right: 0px;
+    display: none;
+}
+#right1 a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-size: 3vh;
+    font-style: bold;
+    padding-top: 2px;
+    font-weight: bolder;
+}
+#right1 a:hover{
+    text-decoration:underline;
+    background-color: rgb(200, 203, 205);
+}
+#right a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+    font-style: bold;
+    padding-top: 2px;
+    font-weight: bolder;
+}
+#right a:hover{
+    text-decoration:underline;
+    color: #ed080fa4;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+#nav i{
+    margin-top: 4px;
+    display: none;
+}
+#download{
+    background-color: black;
+    color: #ffff;
+    height: 5vh;
+    width: 18vh;
+    text-align: center;
+   border-radius: 4vh;
+}
+#paras{
+    margin-top: 25vh;
+    width: 100%;
+    display: flex;
+    gap: 3vh;
+    
+}
+#intro{
+    margin-top: 15vh;
+    margin-left: 15vh;
+    /* border: 2px solid rgb(17, 0, 255); */
+    display:inline-block;
+    width: 30%;
+ }
+#intro #details{
+    width: 18vh;
+    height: 5vh;
+    border:1px solid black;
+    background-color: #FF5314;
+    border-radius: 2.5vh;
+    margin-top: 3vh;
+    margin-left: 0.5vh;
+}
+#cv{
+    width: 18vh;
+    height: 5vh;
+    border:1px solid black;
+    background-color: #FF5314;
+    border-radius: 2.5vh;
+    margin-left: 0.5vh;
+}
+#intro h3{
+        font-family: serif;
+        font-weight: 500;
+}
+#name{
+    font-style: italic;
+    color:rgb(255, 0, 0);
+    transition: width 2s;
+  transition-timing-function: linear;
+}
+#image{
+    padding-right: 5vh;
+    width: 30%;
+    margin-top: 0;
+    margin-left: 25vh;
+
+}
+#image img{
+    width: 80vh;
+    height: 55vh;
+}
+#icon{
+    margin-top: 5vh;
+}
+#icon a{
+    text-decoration: none;
+}
+#icons{
+    font-size: 4vh;
+    padding: 0.5vh;
+    text-decoration: none;
+}
+#divider{
+    border: 2px solid red;
+    background-color: #ff1424;
+    height:4vh;
+}
+#middle{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    width: 100%;
+   background-color: azure;
+}
+.service{
+    display:block;
+    margin-top: 4vh;
+    background-color: azure;
+
+}
+.service h2{
+    margin-left: 45%;
+    margin-top: 2vh;
+    align-items: center;
+   
+}
+#midright{
+    width: 45%;
+    padding-left: 6vh;
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);; */
+}
+#midright :hover{
+    background-color: #e81384cf;
+    font-style: oblique 40deg;
+}
+
+#midleft img{
+    height: 70vh;
+    width: 80vh;
+   background-image: url("image/bg.jpg");
+   padding-bottom: 4vh;
+}
+#midleft{
+    width: 45%;
+    padding-left: 12vh;
+    padding-top: 2vh;
+}
+#heads{
+    margin-top: 3vh;
+}
+.heading{
+    font-family: system-ui;
+    }
+.paraaa{
+        margin-top:2vh;
+        margin-bottom: 2vh;
+        padding: auto;
+    }
+    .paraaa:hover{
+        font-style: oblique 40deg;
+    }
+    .btm{
+        display: flex;
+        flex-direction: row;
+        gap: 20vh;
+        background-color: azure;
+
+    }
+    .btmleft{
+        width: 40%;
+        margin-left:4vh;
+        margin-top: 4vh;
+        padding: 5vh;
+    }
+    .btmleft span{
+       padding-top: 3vh;
+    }
+    .btm h2{
+        text-align: center;
+        margin: auto;
+        padding-bottom: 3vh;
+    }
+    .btmright{
+        padding: 5vh;
+    }
+   #level{
+        margin-left: 4vh;
+        margin-top: 4vh;
+        padding: 0.5vh;
+    }
+    .level1{
+        margin-top: 3vh;
+}
+.cnt{
+    text-align: center;
+    background-color: #fff;
+
+}
+.cntin{
+    display:inline-block;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#fff;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.form-group textarea {
+    resize: vertical;
+}
+.form-group button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+.footer{
+    background-color: rgb(2, 120, 194);
+    height: 5vh;
+    color: white;
+}
+.footer p{
+   padding-top: 1.5vh;
+}
+@media screen and (max-width:640px) {
+    #nav i{
+        display: block;
+    }
+    #right a,button{
+        display:none;
+    }
+    #nav img{
+        margin-top: 0px;
+        width:auto ;
+        height: 10vh;
+        width: 20vh;
+    }
+    #right1{
+        margin-top: 0px;
+        display: none;
+    }
+    #paras{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #intro{
+        width:auto;
+    }
+    #image{
+        width:auto;
+        align-items: center;
+    }
+    #divider{
+        display: none;
+    }
+    #middle{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    #midright{
+        width: auto;
+    }
+    #midleft{
+        width: auto;
+        align-items: center;
+    }
+    .btm{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .btmleft{
+        text-align: center;
+        width:auto;
+    }
+    .btmleft span{
+        width: auto;
+    }
+}
+  
+    
